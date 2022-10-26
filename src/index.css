@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p{
+  font-size: 3em;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+div {
+  border: 1px dotted black;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.thewall{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.thermo{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin: 20%;
+  height: 800px;
+  width: 50%;
+  background-color: darkgray;
+}
+
+.display{
+  margin-top: 20px;
+}
+
+
+
+.controls{
+  display: flex;
+  justify-content: space-around;
+}
