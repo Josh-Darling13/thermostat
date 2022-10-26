@@ -6,6 +6,7 @@ function Main () {
 
    
     const [metric, setmetric] = useState(0);
+    // const [fact, setfact] = useState(0);
 
 
     // 
@@ -41,15 +42,36 @@ function Main () {
         let blue = 255 - percent;
         changeBackground(red, blue);
     }
-    let fahrenheit = Math.round(metric * .5556 + 32);
 
+    let fahrenheit = Math.round(metric * .5556 + 32);
+    console.log(fahrenheit);
+    const tempDoes = () =>{
+        let factIs = "Water freezes."
+
+        if(metric === 0){
+            factIs = "Water freezes."
+
+        } else if (metric >= 37 && metric < 57){
+            factIs = "Normal body temp."
+        } else if (metric >= 57){
+            factIs = "Hottest temperature recorded on earth."
+        } else if (metric === 100){
+            factIs = "Water boils."
+        }
+        console.log(factIs);
+
+        return factIs;
+    }
+
+    const tempFact = tempDoes();
+    console.log(tempFact);
 
     return(
         <div className="thewall">
             <div className="thermo">
                 <div className="display">
                     <div className="facts">
-                       <p>Water boils</p>
+                       <p>{tempFact}</p>
                     </div>
                     <div className="temp">
 
@@ -71,13 +93,13 @@ function Main () {
                 </div>
                 <div className="controls">
                     <div>
-                        hotter
+                        <h2>hotter</h2>
                         <button className="hot" onClick={()=>{tempup()}}>
                             +
                         </button>
                     </div>
                     <div>
-                        colder
+                        <h2>colder</h2>
                         <button className="cold" onClick={()=>{tempdown()}}>
                             -
                         </button>

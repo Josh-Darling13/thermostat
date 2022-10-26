@@ -16,13 +16,20 @@ code {
 }
 
 h1{
+  color: black;
   font-size: 1em;
 }
 
+h2{
+  color: aliceblue;
+  font-size: 1.1em;
+}
+
 p{
-  font-size: 1em;
+  color: aliceblue;
   font-family: monospace;
   font-weight: bold;
+  font-size: 1em;
 }
 
 .App{
@@ -40,6 +47,8 @@ p{
   justify-content: center;
 }
 
+
+
 .thermo{
   display: flex;
   flex-direction: column;
@@ -47,10 +56,16 @@ p{
   margin: 5%;
   /* height: 1000px; */
   width: 65%;
-  background-color: bisque;
+  background-color: rgb(0,0,255);
   border-radius: 10px;
   box-shadow: 0 10px 10px 10px grey;
 }
+
+
+.facts{
+  height: 30px;
+}
+
 
 .display{
   margin-top: 20px;
