@@ -1,7 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function Main(){
 
+    const[metric, setmetric] = useState('');
+
+
+    // let fahrenheit = (celsius * .5556) + 32;
+
+    const tempup = () => {
+
+        
+
+        return(
+
+        )
+    }
 
     return(
         <div className="thewall">
@@ -15,7 +28,7 @@ export default function Main(){
                             <span className="celci">
                                 CCC</span>°
                             &nbsp;/&nbsp;
-                            <span className="faren">
+                            <span className="fahren">
                                 FFF</span>°
                         </h1>
                     </div>
@@ -28,7 +41,7 @@ export default function Main(){
                 <div className="controls">
                     <div>
                         hotter
-                        <button className="hot">
+                        <button className="hot" onClick={tempup}>
                             +
                         </button>
                     </div>
