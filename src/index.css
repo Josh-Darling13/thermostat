@@ -5,8 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #8c8b78;
-  background-image: url("https://www.transparenttextures.com/patterns/smooth-wall-dark.png");
+  background-color: #adad6d;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 code {
@@ -14,14 +15,14 @@ code {
     monospace;
 }
 
-p{
-  font-size: 3em;
-  font-family: monospace;
-  font-weight: bold;
+h1{
+  font-size: 1em;
 }
 
-div {
-  border: 1px dotted black;
+p{
+  font-size: 1em;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 .App{
@@ -44,8 +45,8 @@ div {
   flex-direction: column;
   align-content: space-around;
   margin: 5%;
-  height: 1000px;
-  width: 45%;
+  /* height: 1000px; */
+  width: 65%;
   background-color: bisque;
   border-radius: 10px;
   box-shadow: 0 10px 10px 10px grey;
@@ -58,9 +59,15 @@ div {
 .temp{
   background-color: aquamarine;
   margin: 5%;
-  font-size: 3em;
+  font-size: 1.5rem;
   border-radius: 10px;
-  box-shadow: 0 10px 10px 10px grey;
+  box-shadow: 0px 5px 5px 5px grey inset;
+}
+
+.dad-alert{
+  margin-top: 15px;
+  padding: 5%;
+  text-align: left;
 }
 
 .controls{
@@ -74,7 +81,7 @@ button{
   margin:15%;
   height: 55px;
   width: 55px;
-  font-size: 2.3em;
+  font-size: 1.3em;
   border-radius:100%;
 }
 
