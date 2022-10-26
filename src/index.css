@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #8c8b78;
+  background-image: url("https://www.transparenttextures.com/patterns/smooth-wall-dark.png");
 }
 
 code {
@@ -30,7 +32,7 @@ div {
 }
 
 .thewall{
-  margin-top: 5%;
+  margin-top: 2%;
   display: flex;
   align-items: center;
   align-content: center;
@@ -41,19 +43,38 @@ div {
   display: flex;
   flex-direction: column;
   align-content: space-around;
-  margin: 20%;
-  height: 800px;
-  width: 50%;
-  background-color: darkgray;
+  margin: 5%;
+  height: 1000px;
+  width: 45%;
+  background-color: bisque;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 10px grey;
 }
 
 .display{
   margin-top: 20px;
 }
 
-
+.temp{
+  background-color: aquamarine;
+  margin: 5%;
+  font-size: 3em;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px 10px grey;
+}
 
 .controls{
   display: flex;
   justify-content: space-around;
+  padding: 20px 0;
+  margin-top: 20px;
 }
+
+button{
+  margin:15%;
+  height: 55px;
+  width: 55px;
+  font-size: 2.3em;
+  border-radius:100%;
+}
+

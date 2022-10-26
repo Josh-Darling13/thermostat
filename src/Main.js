@@ -8,22 +8,17 @@ export default function Main(){
             <div className="thermo">
                 <div className="display">
                     <div className="facts">
-                       <p> Water boils</p>
+                       <p>Water boils</p>
                     </div>
                     <div className="temp">
-                        {/* add divs here */}
-                    <h1>
-                        <span className="celci">
-                            C
-                        </span>°
-
-                        <span className="faren">
-                            F
-                        </span>°
-                    </h1>
+                        <h1>
+                            <span className="celci">
+                                CCC</span>°
+                            &nbsp;/&nbsp;
+                            <span className="faren">
+                                FFF</span>°
+                        </h1>
                     </div>
-
-
                     <div className="dad-alert">
                         <p>
                             Dad senses around the world are tingling now that you've touched the thermostat!
@@ -31,16 +26,18 @@ export default function Main(){
                     </div>
                 </div>
                 <div className="controls">
-                    <div className="hot">
-                        <p>
+                    <div>
+                        hotter
+                        <button className="hot">
                             +
-                        </p>
-                        </div>
-                    <div className="cold">
-                        <p>
+                        </button>
+                    </div>
+                    <div>
+                        colder
+                        <button className="cold">
                             -
-                        </p>
-                        </div>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
