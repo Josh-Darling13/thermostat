@@ -63,7 +63,9 @@ p{
 
 
 .facts{
-  height: 30px;
+  margin-top: 15px;
+  padding: 5%;
+  height: 35px;
 }
 
 
@@ -79,7 +81,7 @@ p{
   box-shadow: 0px 5px 5px 5px grey inset;
 }
 
-.dad-alert{
+.dadalert{
   margin-top: 15px;
   padding: 5%;
   text-align: left;

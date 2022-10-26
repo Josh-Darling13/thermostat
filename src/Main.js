@@ -92,13 +92,13 @@ function Main () {
                 <div className="controls">
                     <div>
                         <h2>hotter</h2>
-                        <button className="tempset" onClick={()=>{tempup()}}>
+                        <button className="hot" onClick={()=>{tempup()}}>
                             +
                         </button>
                     </div>
                     <div>
                         <h2>colder</h2>
-                        <button className="tempset" onClick={()=>{tempdown()}}>
+                        <button className="cold" onClick={()=>{tempdown()}}>
                             -
                         </button>
                     </div>
